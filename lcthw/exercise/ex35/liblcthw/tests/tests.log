@@ -1,0 +1,22 @@
+----
+RUNNING: ./tests/DArray_algos_tests
+DArray:54321 34567 23456 23456 12345 
+key: 54321 
+begin:0 end:4
+begin:0 end:4
+key: 12345 
+begin:0 end:3
+begin:0 end:3
+key: 34567 
+begin:1 end:3
+begin:1 end:3
+key: 23456 
+begin:1 end:2
+begin:1 end:2
+DArray:12345 23456 23456 34567 54321 
+DArray:54321 34567 23456 23456 12345 
+DArray:12345 23456 23456 34567 54321 
+DArray:54321 34567 23456 23456 12345 
+DArray:12345 23456 23456 34567 54321 
+ALL TESTS PASSED
+Tests run: 3

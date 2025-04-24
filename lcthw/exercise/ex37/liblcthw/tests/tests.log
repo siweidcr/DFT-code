@@ -1,0 +1,4 @@
+----
+RUNNING: ./tests/hashmap_tests
+ALL TESTS PASSED
+Tests run: 5

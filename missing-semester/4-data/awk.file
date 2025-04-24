@@ -1,0 +1,18 @@
+#!/bin/awk -f
+{
+  value = substr($NF, 0, 5)
+  values[NR] = value + 0
+  sum += value
+  if (value > max) max = value
+}
+END{
+  avg = sum / NR
+  n = asort(values, sorted)
+  if (n % 2 == 1){
+    median = sorted[(n+1)/2]
+  } else {
+    median = (sorted[n/2] + sorted[n/2+1])/2
+  }
+  printf "avg : %f\n median :%f\nmax: %f\n",avg,median,max
+}
+

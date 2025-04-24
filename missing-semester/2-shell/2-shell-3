@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+count=0
+echo "debug program which seldom went wrong"
+
+while [ $? -eq 0 ]
+do
+  . 2-shell-3-1
+done
+

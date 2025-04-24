@@ -1,0 +1,8 @@
+----
+RUNNING: ./tests/ringbuffer_tests
+FAILED: wrong data in read from buffer.
+Tests run: 2
+----
+RUNNING: ./tests/ringbuffer_tests
+ALL TESTS PASSED
+Tests run: 3

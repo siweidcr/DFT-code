@@ -1,0 +1,23 @@
+journalctl | grep 'systemd\[1\]: Startup' | tail -n 10 | awk '{print $NF}'| sort | awk '
+{value=substr($0, 0, 5)
+values[NR] = value + 0
+sum += value
+} END{if (value > max ) max = value
+avg = sum / NR
+median = (values[6] + values[5])/2
+printf "median :%.3f\n max :%.3f\n avg:%.3f\n",median,max,avg
+}' > 2-shell-4
+
+median :7.085
+ max :7.376
+ avg:7.087
+6.789s.
+6.951s.
+7.037s.
+7.071s.
+7.081s.
+7.088s.
+7.089s.
+7.114s.
+7.278s.
+7.376s.

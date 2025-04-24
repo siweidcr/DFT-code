@@ -1,0 +1,8 @@
+total 20K
+drwxrwxr-x 2 forgrademe forgrademe 4.0K  4月 10 22:29 .
+-rw-rw-r-- 1 forgrademe forgrademe    0  4月 10 22:29 2-shell-1
+-rw-rw-r-- 1 forgrademe forgrademe   16  4月 10 22:22 2
+-rw-rw-r-- 1 forgrademe forgrademe    7  4月 10 22:22 1
+-rwxrw-r-- 1 forgrademe forgrademe  523  4月 10 21:43 test
+drwxrwxr-x 3 forgrademe forgrademe 4.0K  4月 10 21:21 ..
+inst = ls -lhat --color=auto

@@ -1,0 +1,4 @@
+----
+RUNNING: ./tests/bstree_tests
+ALL TESTS PASSED
+Tests run: 6

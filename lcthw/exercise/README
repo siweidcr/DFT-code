@@ -1,0 +1,12 @@
+q1：
+以为makefile是单纯的一个快速处理一系列文件的东西，这个练习中，在没有写makefile文件的情况下，make ex1命令可以编译前缀为ex1的c语言程序。make应该还有不少其他功能待学
+
+q2：
+all:ex1这个添加到makefile中，我知道make all可以所有的target处理了，但是具体写法有些没懂
+按照我一开始的学法，只输入make，就能编译ex1.c这个程序的makefile命令应该这样写
+
+ex1:ex1.c
+	$gcc -Wall -g ex1.c -o ex1
+all:ex1
+
+具体应该还是跟q1有关。

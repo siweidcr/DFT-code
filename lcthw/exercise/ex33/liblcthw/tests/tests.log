@@ -1,0 +1,8 @@
+----
+RUNNING: ./tests/list_algos_tests
+NUM_VALUES: 10, NUM_TIMES: 100000
+test_bubble_sort:time=1.381681
+test_merge_sort:time=6.428718
+test_insert_sorted:time=1.201644
+ALL TESTS PASSED
+Tests run: 3

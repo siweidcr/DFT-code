@@ -1,0 +1,22 @@
+----
+RUNNING: ./tests/bstrlib_tests
+mlen:32,slen:23,string:hello,we are the world!
+mlen:8,slen:5,string:hello
+copy from btext: mlen:32,slen:16,string:forgrademe ,yes!
+copy to btext_copy: mlen:32,slen:16,string:forgrademe ,yes!
+overwrite new btext: mlen:32,slen:15,string:forgrademe ,no!
+overwrite new btext: mlen:32,slen:17,string:forgrademe ,nice!
+overwrite new btext: mlen:32,slen:20,string:forgrademe ,not bad!
+new btext: mlen:32,slen:22,string:forgrademe ,not bad!!!
+mlen:8,slen:0,string:
+btext > btext_cmp
+the two strings are different!
+mlen:32,slen:17,string:4dddr ,not bad!!!
+mlen:64,slen:42,string:forgrademe ,nice!, to make test of, bsplit
+qty:3,mlen:4
+mlen:16,slen:8,data:forgrade
+mlen:16,slen:13,data:e ,nice!, to 
+mlen:32,slen:19,data:ake test of, bsplit
+mlen:38,slen:17,string:test bformat: a=0
+ALL TESTS PASSED
+Tests run: 1
