@@ -1,0 +1,24 @@
+git log --oneline --graph
+
+git log --stat --grep README
+
+commit 89f3b6094784a6b64baa5d01daf92f200543f47f
+Merge: 1fd7b9b fc93d7c
+Author: Lingfeng_Ai <hanxiaomax@gmail.com>
+Date:   Fri Nov 29 15:42:28 2024 +0800
+
+    Merge pull request #186 from Zhenger233/master
+    
+    修改为中文README
+
+commit fc93d7c0660cee7ac2dfeb23fd85f9ec741ff3a8
+Author: Zhenger233 <2042712521@qq.com>
+Date:   Fri Nov 15 00:01:20 2024 +0800
+
+    修改为中文README
+
+ README.md | 48 +++++++++++++++++++++++++-----------------------
+ 1 file changed, 25 insertions(+), 23 deletions(-)
+
+git blame _config.yml | grep collections | awk '{print $1}' | xargs git show --stat
+Redo lectures as a collection
