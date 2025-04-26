@@ -1,0 +1,9 @@
+1,未提交到github上时，且是上一个提交，本地修改后直接git commit --amend即可
+2,已提交或者不是上一个提交，需要使用git-filter-branch
+删除
+ 1>,完整pull github中的仓库
+ 2>,git filter-repo --path config/application.yml --path-rename config/application.yml:deleted_data --invert-paths 
+--force 可选，即如果是未提交，但是不是上一个提交，此时本地库比github上更新，杂不需要git pull ，而是直接第二步，
+加上--force
+ 3>, git remote add origin git@git.github.com:test/es-alert.git  git push --force --all
+

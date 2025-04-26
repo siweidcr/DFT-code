@@ -1,0 +1,5 @@
+git stash
+ git stash apply
+ git stash drop stage@{0}
+or
+ git stash pop
