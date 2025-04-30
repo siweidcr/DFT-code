@@ -1,0 +1,4 @@
+sleep 10000
+bg
+pgrep sleep 
+pkill sleep -af

@@ -1,0 +1,11 @@
+2,
+remote:
+python -m http.server 8888
+local:
+curl localhost:9999
+
+3,
+-N 就是不执行远端命令，适用于端口转发的情况
+-f 是让 ssh 在执行命令前切换到后台运行
+
+ssh -fN -L 9999:localhost:8888 lzusc2

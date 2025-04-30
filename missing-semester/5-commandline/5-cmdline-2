@@ -1,0 +1,20 @@
+#!/bin/bash
+
+sleep 60 &
+
+pid=$!
+
+
+echo "sleep over"
+#!/bin/bash
+
+pidwait()
+{
+   while kill -0 $1 # 循环直到进程结束
+   do
+   sleep 1 
+   done
+   ls
+}
+sleep 60 &
+pidwait $(pgrep sleep)
